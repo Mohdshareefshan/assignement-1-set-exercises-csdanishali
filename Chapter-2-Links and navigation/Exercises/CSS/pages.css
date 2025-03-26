@@ -1,0 +1,9 @@
+*{ /*styling for the whole navigation bar*/
+
+    color:whitesmokes;
+    background-color:lightgoldenrodyellow;
+}
+.text1{ 
+     /* Page in overview */
+    padding-left: 45%;
+}

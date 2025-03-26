@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center everything on the page */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000000;
+}
+
+/* Center the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between buttons */
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* Style buttons inside the navbar */
+.navbar button, .navbar .button {
+    background-color: rgb(255, 234, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+.navbar button:hover, .navbar .button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Remove default link styles */
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Minnal Murali Text Styling */
+.minnal-murali {
+    font-family: 'Bungee Spice', sans-serif; /* Superhero-style font */
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffcc00; /* Lightning yellow */
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px rgba(255, 255, 0, 0.8), 10px 10px 20px rgba(255, 0, 0, 0.6); /* Lightning glow effect */
+    animation: flicker 1.5s infinite alternate; Flickering effect
+}
+
+/* Flickering effect to mimic electric energy */
+@keyframes flicker {
+    0% { text-shadow: 5px 5px 10px rgba(255, 255, 0, 0.8), 10px 10px 20px rgba(255, 0, 0, 0.6); }
+    50% { text-shadow: 8px 8px 15px rgba(255, 255, 0, 1), 12px 12px 25px rgba(255, 0, 0, 0.8); }
+    100% { text-shadow: 3px 3px 7px rgba(255, 255, 0, 0.6), 8px 8px 15px rgba(255, 0, 0, 0.5); }
+}
