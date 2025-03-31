@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.grid-container{/* styling for grid content*/
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 60px auto;
+    width: 75%;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+.item button{/*styling for  button*/
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: none;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    word-spacing: -5px;
+    padding: 30px;
+    text-align: center;
+    height: 220px;
+}
+.item p{
+    margin: 10px;
+}
+.item h1{
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    letter-spacing: 7px;
+    background-color: rgb(120, 120, 120);
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.item button:hover{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.item2{
+    width: 100px;
+    border-radius;
+    background-color: rgba(0, 0, 0, 0.801);
+    margin: 0;
+}
