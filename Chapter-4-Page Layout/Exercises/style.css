@@ -1,43 +1,124 @@
-html,body{
-    background-image: url("Screenshot\ 2025-03-30\ 174932.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial,  sans-serif;
+    background-color: white;
+    
+    
+    
 }
-.navbar{ /*Styling for the Navigation Bar*/
+
+/* Header */
+.header {
+    background-color: #1b0d2e;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2.5em;   
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    margin: 0px 200px;
-    border-radius: 20px;
+    background-color: #1b0d2e;
     list-style-type: none;
-    overflow: hidden;
+    padding: 15px 0;
+    margin: 0;
 }
-.navbar a{
+
+.navbar li {
+    margin: 0 25px;
+}
+
+.navbar a {
     text-decoration: none;
-    padding: 20px;
-    text-transform: uppercase;
-    color: rgb(32, 32, 32);     
-    letter-spacing: 7px;
-    display: block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    transition: all 0.5s;
-}
-.navbar a:hover{
-    color: rgb(177, 177, 177);
-}
-.footer{ 
-    bottom: 0;
-    left: 0;
     color: white;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.32);
-    width: 100%;
-    text-align: center;
-    font-family: Tahoma;
+    font-size: 1.9em;
 }
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 11px;
+    gap: 30px;
+}
+
+/* Welcome Section */
+.welcome-section h2 {
+    font-size: 1.9em;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.welcome-section img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0px;
+    padding-left: 5px;
+}
+
+/* Line Up Aside */
+.lineup-section {
+    background-color:#172d67;
+    color: white;
+    padding: 20px;
+    border-radius: 0px;
+
+}
+
+.lineup-section h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.lineup-section p {
+    font-size: 1em;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400;
+}
+
+.lineup-images {
+    display: flex;
+    gap: 4%;
+    margin-top: 20px;
+}
+
+.lineup-images img {
+    width: 48%;
+    border-radius: px;
+}
+
+/* Footer */
+.footer {
+    background-color: #8b27c9;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 0px;
+   
+}
+
 .heading{ /*Styling of the heading in the index page*/
-    color: rgb(0, 0, 0);
+    color: #17072b
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 40px;
@@ -56,6 +137,7 @@ html,body{
     display: grid;
     margin: 130px 250px;
     grid-template-columns: auto auto;
+    background-image: url(pngtree-abstract-blurred-gradient-background-in-bright-rainbow-colors-colorful-rainbow-gradient-image_15684346.jpg);
 }
 .item1{ /*Items of the grid layout in the index page*/
     color: white;
@@ -104,12 +186,13 @@ html,body{
 }
 .about{ /*Styling for the box in the about page*/
     margin: 20px 300px;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.32);
     font-family: tahoma;
     padding: 30px;
     border-radius: 20px;
     text-align: center;
+   background-image: url(360_F_336892491_aZIazKCweTtVXT4BT8I2OxOlNwk1JV7j.jpg);
 }
 .about h1{
     letter-spacing: 3px;
@@ -122,7 +205,7 @@ html,body{
 
 .whatitems{ /*Styling for the items in the grid on "What's on" page*/
     background-color: rgba(255, 255, 255, 0.32);
-    color: white;
+    color: rgb(7, 6, 6);
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
@@ -134,7 +217,7 @@ html,body{
 
 }
 .whatitems:hover{
-    background-color: rgba(255, 255, 255, 0.128);
+    background-color: rgba(255, 249, 249, 0.128);
 }
 .box{/*Styling for the forms in Contact and Ticket pages*/
     text-align: center;
