@@ -1,0 +1,102 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Calculator box styling */
+  .calculator {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding-right: 50px;
+  }
+  
+  
+
+  
+  /* Title styling */
+  .calculator h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+  }
+  
+  
+  
+  
+  /* Label styling */
+  .calculator label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  
+  
+  
+  /* Input fields styling */
+  input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #ffffffdd;
+    transition: box-shadow 0.3s, transform 0.2s;
+  }
+  
+  
+  
+  /* Input focus effect */
+  .calculator input[type="number"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    outline: none;
+  }
+  
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+
+  
+  /* Button hover effect */
+  button:hover {
+    background: #0056b3;
+    transform: scale(1.03);
+  }
+  
+  
+  /* Result display */
+  #totalCost {
+    text-align: center;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #6d6c70;
+  background-color: rgba(114, 107, 107, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 90px
+  ;
+}
